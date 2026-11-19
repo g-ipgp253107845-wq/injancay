@@ -1,0 +1,8 @@
+{
+  "name": "Remix CyberSmart Kids: Netiket \u0026 Keselamatan Siber",
+  "description": "Halaman web pendidikan interaktif untuk murid sekolah rendah tentang netiket, keselamatan siber, etika AI, ancaman digital, dan kuiz interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
