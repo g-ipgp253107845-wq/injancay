@@ -17,7 +17,7 @@ export default function App() {
   const [highlightedTab, setHighlightedTab] = useState<'netiket' | 'keselamatan' | null>('netiket');
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
+    <div className="min-h-screen bg-[#060916] text-slate-100">
       <Navbar />
       <main>
         <HeroSection onFocusDefinition={setHighlightedTab} />

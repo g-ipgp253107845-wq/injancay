@@ -49,21 +49,21 @@ export interface ReferenceItem {
   url: string;
 }
 
-export const HERO_IMAGE_PATH = '/src/assets/images/hero_cybersmart_kids_1795105990469.jpg';
-export const NETIKET_IMAGE_PATH = '/src/assets/images/card_netiket_etika_1795105992688.jpg';
-export const CYBER_IMAGE_PATH = '/src/assets/images/card_keselamatan_siber_1795105992055.jpg';
-export const CLOSING_IMAGE_PATH = '/src/assets/images/closing_wira_digital_1795105992795.jpg';
+export const HERO_IMAGE_PATH = '/src/assets/images/hero_galaxy_aliens_1795106398766.jpg';
+export const NETIKET_IMAGE_PATH = '/src/assets/images/card_netiket_galaxy_1795106399697.jpg';
+export const CYBER_IMAGE_PATH = '/src/assets/images/card_keselamatan_galaxy_1795106398718.jpg';
+export const CLOSING_IMAGE_PATH = '/src/assets/images/closing_wira_galaxy_1795106398863.jpg';
 
 export const DEFINITIONS = [
   {
     id: 'netiket' as const,
     number: '01',
     title: 'Netiket',
-    kicker: 'Etika & Budi Pekerti Digital',
+    kicker: 'Etika & Budi Pekerti Galaksi Digital',
     summary:
       'Amalan dan peraturan tingkah laku yang sopan serta beretika ketika berkomunikasi dan berinteraksi di internet.',
     image: NETIKET_IMAGE_PATH,
-    imageAlt: 'Ilustrasi murid sekolah rendah berkomunikasi dengan sopan menggunakan komputer riba dan tablet.',
+    imageAlt: 'Ilustrasi rakan alien mesra dan pengembara angkasa muda berkomunikasi dengan sopan menggunakan tablet holografik di dalam bilik darjah kubah bulan.',
     dailyExamples: [
       'Memberi salam dan menggunakan kata-kata yang baik dalam kumpulan kelas.',
       'Menghormati pendapat rakan walaupun berbeza pandangan.',
@@ -74,11 +74,11 @@ export const DEFINITIONS = [
     id: 'keselamatan' as const,
     number: '02',
     title: 'Keselamatan Siber',
-    kicker: 'Perlindungan Diri & Peranti',
+    kicker: 'Perisai Perlindungan Diri & Peranti',
     summary:
       'Langkah melindungi maklumat peribadi, peranti dan akaun digital daripada ancaman serta penyalahgunaan dalam talian.',
     image: CYBER_IMAGE_PATH,
-    imageAlt: 'Ilustrasi perisai keselamatan biru elektrik dan kunci digital melindungi komputer dan telefon pintar.',
+    imageAlt: 'Ilustrasi pengawal teknologi alien melindungi komputer riba dan kunci bintang kristal di dalam perisai medan tenaga keemasan.',
     dailyExamples: [
       'Menjaga kerahsiaan kata laluan dan tidak berkongsi alamat rumah.',
       'Mengelakkan pautan mencurigakan yang menjanjikan hadiah percuma.',
